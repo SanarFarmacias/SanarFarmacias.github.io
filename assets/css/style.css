@@ -1,0 +1,62 @@
+@import url("/assets/css/importacoes.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+/* fontes */
+
+:root {
+  --fonte-principal: "Poppins", sans-serif;
+  --fonte-secundaria: "Roboto", sans-serif;
+  --color-1: #1c3e5c;
+  --color-bg2: linear-gradient(116.74deg, #ffffff 33.25%, #2a5f8e 99.43%);
+  --color-bg3: linear-gradient(244.4deg, #ffffff 35.36%, #2a5f8e 114.18%);
+}
+
+.font-1 {
+  font-family: var(--fonte-principal);
+}
+
+.font-2 {
+  font-family: var(--fonte-secundaria);
+}
+
+.titulo {
+  font-family: var(--fonte-principal);
+  font-size: 3.5rem;
+  line-height: 4rem;
+  color: var(--color-1);
+}
+
+.txt-descricao {
+  font-family: var(--fonte-secundaria);
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.bg1 {
+  background: var(--color-1);
+}
+
+.bg2 {
+  background: var(--color-bg2);
+}
+
+.bg3 {
+  background: var(--color-bg3);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}

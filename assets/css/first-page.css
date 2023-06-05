@@ -1,0 +1,13 @@
+#first-page {
+  background-image: url("/assets/img/background.svg");
+  background-repeat: no-repeat;
+}
+
+.container-fpage {
+  display: flex;
+  justify-content: center;
+}
+
+#first-page img {
+  max-width: 100%;
+}

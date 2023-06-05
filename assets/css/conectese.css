@@ -1,0 +1,16 @@
+#conectese .container {
+  padding: 80px 30px;
+}
+
+.images img {
+  display: block;
+  max-width: 100%;
+}
+
+.images {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}

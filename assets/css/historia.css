@@ -1,0 +1,26 @@
+#historia .container {
+  padding: 80px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#historia .txt-descricao {
+  color: var(--color-1);
+  margin-top: 32px;
+}
+
+#historia img {
+  max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  #historia .container {
+    grid-template-columns: 1fr;
+  }
+
+  #historia img {
+    width: 300px;
+    transform: rotate(45deg);
+  }
+}

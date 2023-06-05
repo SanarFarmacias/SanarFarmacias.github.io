@@ -1,0 +1,44 @@
+#sobre .container {
+  padding: 80px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#sobre .titulo {
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+#sobre p {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  #sobre .container {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  #sobre img {
+    width: 300px;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+  }
+}
+
+@media (max-width: 900px) {
+  #sobre img {
+    width: 250px;
+    left: 450px;
+    top: 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  #sobre img {
+    display: none;
+  }
+}

@@ -1,0 +1,63 @@
+#diferencial .container {
+  padding: 80px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#diferencial .titulo {
+  color: #ffffff;
+}
+
+.titulo span {
+  color: #ff0000;
+}
+
+#diferencial .txt-descricao {
+  margin-top: 32px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.beneficios {
+  color: #ffffff;
+  list-style: none;
+}
+
+.beneficios li {
+  padding: 5px;
+  position: relative;
+}
+
+.beneficios li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 15px;
+}
+
+.diferencial img {
+  max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  #diferencial .container {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  #diferencial img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #diferencial .titulo {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
